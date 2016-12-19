@@ -10,7 +10,7 @@ For the examples below, I'm using a particular Monte Carlo method known as "boot
 Iterating this procedure allows us to arrive at a some sort of a sense of the uncertainty of the distribution of a sample or the uncertainty regarding the strength of a relationship between any two given variables.
 
 ## Bootstrapping Dyadic US Aid Commitments to 123 Aid Recipients from 1993 to 2010
-If you download the "US_Immigration" dataset included in this repository, you should be able to copy and past the below code and get the density plot shown below.
+If you download the "US_Immigration" dataset included in the repository for this project on GitHub, you should be able to copy and past the below code and get the density plot shown below.
 
     windows() # or quartz() if you're using Mac
           # this will let us see the simulations plotted in real time.
@@ -60,7 +60,7 @@ Not only does this noise make it hard to make generalizations about the effect o
 
 Enter the bootstrap!
 
-Once you've downloaded the "US_Wealth" dataset available in this repository, you can enter the following code and watch in real time as the Monte Carlo simulations are iterated. While the plotted points from the orginal sample will remain the same, the lowess line for each iteration will be plotted one after the other and overlayed. I've given the color of the lowess lines a low degree of opacity in order to make it clearer where the majority of plotted lines fall.
+Once you've downloaded the "US_Wealth" dataset available in this project's repository, you can enter the following code and watch in real time as the Monte Carlo simulations are iterated. While the plotted points from the orginal sample will remain the same, the lowess line for each iteration will be plotted one after the other and overlayed. I've given the color of the lowess lines a low degree of opacity in order to make it clearer where the majority of plotted lines fall.
 
     windows()
     par(bty="n",lwd=1)
