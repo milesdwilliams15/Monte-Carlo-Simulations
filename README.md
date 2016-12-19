@@ -54,7 +54,7 @@ In the below example, I take US GDP/capita (in 2005 US $) and plot its relations
 
 ![scatter plot 2](https://cloud.githubusercontent.com/assets/23504082/21301837/a67360c0-c576-11e6-829a-edc28288bd5a.jpeg)
 
-It's pretty clear that there's some sort of relationship here, but the right end of the plot has a lot of noise. 
+It's pretty clear that there's some sort of relationship here, but the right end of the plot has a lot of noise (likely a result of the 2008 recession). 
 
 Not only does this noise make it hard to make generalizations about the effect of GDP/capita on unemployment with certainty, the small number of cases make hypothesis testing with traditional statistical techniques next to impossible.
 
