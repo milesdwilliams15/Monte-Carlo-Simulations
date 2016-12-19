@@ -75,4 +75,4 @@ The final result should be a plot that looks the one below.
 
 ![scatter plot](https://cloud.githubusercontent.com/assets/23504082/21301595/a6e57d38-c574-11e6-9ad4-7fb3cc0a34d2.jpeg)
 
-The bootstrapping technique gives us a pretty clear sense for the central dendency of the data. With few exceptions, higher GDP/capita generally is associated with a lower unemployment rate.
+The bootstrapping technique gives us a pretty clear sense for the central dendency of the data. With few exceptions, higher GDP/capita generally is associated with a lower unemployment rate. However, once GDP/capita reaches a certain point, its effect on unemployment appears to level off -- that is, it reaches a point of diminishing returns.
