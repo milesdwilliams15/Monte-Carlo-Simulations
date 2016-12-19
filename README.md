@@ -1,6 +1,8 @@
 # Monte-Carlo-Simulations
 Practicing Monte Carlo Simulations Using My Thesis Dataset
 
+[Back to Main Page](https://milesdwilliams15.github.io/)
+
 Monte Carlo simulation is a great tool for data analysis that doesn't require you to assume many of the same basic assumptions required by traditional methods of statistical analysis. Monte Carlo is especially helpful when you're working with a limited number of cases but want to make generalizations regarding a larger population not captured by your sample.
 
 For the examples below, I'm using a particular Monte Carlo method known as "bootstrapping" to measure uncertainty (an important measure in any kind of data analysis). This involves taking random resamples from an existing set of data "with replacement" -- i.e., if a case is randomly drawn from a sample of cases from a larger population, it can be redrawn more than once from the sample.
@@ -76,3 +78,5 @@ The final result should be a plot that looks the one below.
 ![scatter plot](https://cloud.githubusercontent.com/assets/23504082/21301595/a6e57d38-c574-11e6-9ad4-7fb3cc0a34d2.jpeg)
 
 The bootstrapping technique gives us a pretty clear sense for the central dendency of the data. With few exceptions, higher GDP/capita generally is associated with a lower unemployment rate. However, once GDP/capita reaches a certain point, its effect on unemployment appears to level off -- that is, it reaches a point of diminishing returns.
+
+[Back to Main Page](https://milesdwilliams15.github.io/)
