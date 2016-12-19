@@ -73,7 +73,7 @@ Once you've downloaded the "US_Wealth" dataset available in this project's repos
       lines(lowess(temp$GDP.per.capita,temp$Unemployment,f=1),col="#88888815")
     }
 
-The final result should be a plot that looks the one below.
+The final result should be a plot that looks like the one below.
 
 ![scatter plot](https://cloud.githubusercontent.com/assets/23504082/21301595/a6e57d38-c574-11e6-9ad4-7fb3cc0a34d2.jpeg)
 
